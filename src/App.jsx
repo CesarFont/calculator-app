@@ -77,87 +77,87 @@ function App() {
           <Button
             value={"9"}
             handleClick={handleClick}
-            classList={classList({ numberButton: true })}
+            classList={classList({ numberButton: true, basicButton: true})}
           />
           <Button
             value={"8"}
             handleClick={handleClick}
-            classList={classList({ numberButton: true })}
+            classList={classList({ numberButton: true, basicButton: true })}
           />
           <Button
             value={"7"}
             handleClick={handleClick}
-            classList={classList({ numberButton: true })}
+            classList={classList({ numberButton: true, basicButton: true })}
           />
           <Button
             value={"DEL"}
             handleClick={handleClick}
-            classList={classList({ deleteButton: true })}
+            classList={classList({ deleteButton: true, basicButton: true })}
           />
           <Button
             value={"4"}
             handleClick={handleClick}
-            classList={classList({ numberButton: true })}
+            classList={classList({ numberButton: true, basicButton: true })}
           />
           <Button
             value={"5"}
             handleClick={handleClick}
-            classList={classList({ numberButton: true })}
+            classList={classList({ numberButton: true, basicButton: true })}
           />
           <Button
             value={"6"}
             handleClick={handleClick}
-            classList={classList({ numberButton: true })}
+            classList={classList({ numberButton: true, basicButton: true })}
           />
           <Button
             value={"+"}
             handleClick={handleClick}
-            classList={classList({ numberButton: true })}
+            classList={classList({ opButton: true, basicButton: true })}
           />
           <Button
             value={"1"}
             handleClick={handleClick}
-            classList={classList({ numberButton: true })}
+            classList={classList({ numberButton: true, basicButton: true })}
           />
           <Button
             value={"2"}
             handleClick={handleClick}
-            classList={classList({ numberButton: true })}
+            classList={classList({ numberButton: true, basicButton: true })}
           />
           <Button
             value={"3"}
             handleClick={handleClick}
-            classList={classList({ numberButton: true })}
+            classList={classList({ numberButton: true, basicButton: true })}
           />
           <Button
             value={"-"}
             handleClick={handleClick}
-            classList={classList({ numberButton: true })}
+            classList={classList({ opButton: true, basicButton: true })}
           />
           <Button
             value={"."}
             handleClick={handleClick}
-            classList={classList({ numberButton: true })}
+            classList={classList({ numberButton: true, basicButton: true })}
           />
           <Button
             value={"0"}
             handleClick={handleClick}
-            classList={classList({ numberButton: true })}
+            classList={classList({ numberButton: true, basicButton: true })}
           />
           <Button
             value={"*"}
             handleClick={handleClick}
-            classList={classList({ numberButton: true })}
+            classList={classList({ opButton: true, basicButton: true })}
           />
           <Button
             value={"/"}
             handleClick={handleClick}
-            classList={classList({ numberButton: true })}
+            classList={classList({ opButton: true, basicButton: true })}
           />
           <Button
             value={"RESET"}
             handleClick={handleClick}
-            classList={classList({ deleteButton: true, bigButton: true })}
+            classList={classList({ deleteButton: true, bigButton: true})}
           />
           <Button
             value={"="}
